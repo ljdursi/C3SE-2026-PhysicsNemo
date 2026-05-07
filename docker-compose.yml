@@ -1,0 +1,18 @@
+services:
+  jupyter:
+    image: ghcr.io/ljdursi/c3se-2026-physicsnemo:latest
+    ports:
+      - "8888:8888"
+      - "8889:8889"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
+    ulimits:
+      memlock: -1
+      stack: 67108864
+    shm_size: '2gb'
+    command: >
+      sh -c "tensorboard --logdir=/workspace/logs --port 8889 & exec jupyter-lab --no-browser --allow-root --ip=0.0.0.0 --port=8888 --NotebookApp.token="" --notebook-dir=/workspace/python/"
