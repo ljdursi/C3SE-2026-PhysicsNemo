@@ -1,6 +1,6 @@
 services:
   jupyter:
-    image: ghcr.io/ljdursi/c3se-2026-physicsnemo:latest
+    image: ./Dockerfile
     ports:
       - "8888:8888"
       - "8889:8889"
