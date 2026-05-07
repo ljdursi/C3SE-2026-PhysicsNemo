@@ -1,6 +1,6 @@
 services:
   jupyter:
-    build: .
+    image: ghcr.io/ljdursi/c3se-2026-physicsnemo:latest
     ports:
       - "8888:8888"
       - "8889:8889"
