@@ -18,10 +18,10 @@ COPY workspace/ /workspace/
 RUN python3 /workspace/python/source_code/dataset.py
 
 # This decompresses the Dataset for usage 
-# RUN python3 /workspace/python/source_code/fourcastnet/decompress.py
+RUN python3 /workspace/python/source_code/fourcastnet/decompress.py
 
 # Remove Compressed files
-#3 RUN rm -rf /workspace/python/source_code/fourcastnet/pre_data
+RUN rm -rf /workspace/python/source_code/fourcastnet/pre_data
 
 # Install Earth-2 Studio
 RUN pip install jupyterlab
