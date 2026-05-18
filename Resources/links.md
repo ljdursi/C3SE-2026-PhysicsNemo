@@ -16,8 +16,6 @@
 
 ## Instructions for Starting the Job
 
-## Instructions for Starting the Job
-
 ### Log into axis
 
 * Login to [Axis](https://axis-raplabhackathon.axisportal.io/apps) with your Axis (C3S-26) credentials 
@@ -32,7 +30,7 @@
 
 ### Get an axis one-time username (this resets every time, you'll need to get a new one if you've used one to log in at all)
 
-* Go back to the Axis console
+* Go back to the Axis console
 * Click on “Curiosity cluster” and then Click on “Use a desktop SSH client”
 * Enter your Curiosity credentials
 * Click on “Connect with SSH client”
@@ -48,4 +46,3 @@
 * In your web terminal when everything is completed, you will see a message along the lines of "Please enter the following command into your terminal" - it's a long command that starts with `ssh`. 
 * Start a _new_ terminal _on your laptop_ (Terminal.app on Mac, PowerShell on windows, or your favourite terminal on Linux, for example), and paste that ssh command in.
 * You can now open a new tab on your browser to https://localhost:9999 to see the Jupyter notebook
-* While that’s running we can start with the introduction
