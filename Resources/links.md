@@ -14,6 +14,8 @@
 
 ## Slides
 
+Slides can be found [here](https://github.com/ljdursi/C3SE-2026-PhysicsNemo/blob/main/Resources/C3SE-PhysicsNeMo.pdf)
+
 ## Instructions for Starting the Job
 
 ### Log into axis
